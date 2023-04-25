@@ -5,7 +5,6 @@
  */
 
 import React from "react";
-
 /**
  * About background image
  *
@@ -24,7 +23,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "A Tech Enthusiast and Software Engineer with a BSc. in Computer Science from the University of Ghana";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -32,11 +31,11 @@ const description =
  */
 const skillsList = [
   "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Web development",
+  "Technical writing",
+  "Community building",
+  "Mobile App development",
+  "Backend development",
 ];
 
 /**
@@ -45,7 +44,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am a passionate Tech Enthusiast and Software Engineer with a deep understanding of JavaScript, TypeScript, TailwindCSS, NextJS/ReactJS, Express, MongoDB, and MySQL. I am currently a BSc. Computer Science Student from the University of Ghana, where I serve as the Vice President of the Computer Science Student Association (COMPSSA). I have keen interest in software development and acquired a wealth of knowledge and experience in building web applications using the MERN stack.";
 
 const About = () => {
   return (
