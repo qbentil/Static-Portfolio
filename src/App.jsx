@@ -4,15 +4,14 @@
  * To contain application wide settings, routes, state, etc.
  */
 
-import React from "react";
+import "./styles.css";
 
 import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
-
-import "./styles.css";
+import React from "react";
 
 /**
  * This object represents your information. The project is set so that you
@@ -24,18 +23,18 @@ import "./styles.css";
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "Alexandrie Grenier",
-  title: "Web Designer & Content Creator",
-  email: "alex@example.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
+  name: "Shadrack Bentil",
+  title: "Full Stack Developer & Technical Writer",
+  email: "bentilshadrack72@gmail.com",
+  gitHub: "qbentil",
+  instagram: "qbentil",
+  linkedIn: "bentil",
   medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  twitter: "themanbentil",
+  youTube: "Code with Bentil",
 };
 
-const primaryColor = "#4E567E";
+const primaryColor = "#001FA0";
 const secondaryColor = "#D2F1E4";
 
 const App = () => {
