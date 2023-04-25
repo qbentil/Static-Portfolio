@@ -11,6 +11,7 @@ body {
   height: 100%;
   width: 100%;
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
 }
 
 div#main {
@@ -122,4 +123,14 @@ a:hover {
 img.socialIcon {
   width: 30px;
   height: 30px;
+}
+
+/* add a slide in animation */
+@keyframes slideIn {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
