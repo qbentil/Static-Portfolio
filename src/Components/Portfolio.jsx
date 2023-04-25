@@ -9,7 +9,6 @@
  */
 
 import React from "react";
-
 /**
  * Desk image
  *
@@ -31,29 +30,39 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    title: "JavaScript Quiz Application",
+    description: "This is a JavaScript quiz application where users can take a quiz on various programming languages. It uses HTML, CSS and JavaScript.",
+    url: "https://codersquiz.netlify.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Tech Blog🎉",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "This is a MERN stack application for a tech blog where users can create, read, update and delete articles. It uses React on the front end, with NodeJS + ExpressJS on the back end. The database used is MongoDB.",
+    url: "https://github.com/qbentil/bentility",
   },
   {
-    title: "My Resume Site",
+    title: "Bentilzone Restaurant",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "This is a React application for a food ordering app where users can order food and add it to a cart. It uses React on the front end, with firebase on the back end. ",
+    url: "https://github.com/qbentil/bentilzone-resturant",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Weather App",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "This is a React application for a weather app where users can check the weather of a city. ",
+    url: "https://github.com/qbentil/genuis-weather-app",
   },
+  {
+    title: "WhatsApp Bussiness Clone - Mobile",
+    description:
+      "This is a React Native application for a WhatsApp Bussiness Clone where users can chat with each other",
+    url: "https://github.com/qbentil/chatbox",
+  },
+  {
+    title: "Pukka WordBeater Game",
+    description: "This is a JavaScript game where users can test their typing speed. It uses HTML, CSS and JavaScript.",
+    url: "https://pukkawordbeater.netlify.app/",
+  }
 ];
 
 const Portfolio = () => {
